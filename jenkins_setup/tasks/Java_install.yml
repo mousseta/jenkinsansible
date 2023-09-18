@@ -3,3 +3,10 @@
 - name: install java-openjdk11 
   shell:
       sudo amazon-linux-extras install java-openjdk11
+- name: install java-openjdk17 
+  shell:
+      sudo dnf update
+      sudo dnf install java-17-amazon-corretto
+      sudo dnf install java-17-amazon-corretto-devel
+
+
