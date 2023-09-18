@@ -5,6 +5,6 @@
       sudo amazon-linux-extras install java-openjdk11
 - name: install java-openjdk17 
   shell:
-      sudo yum install java-17-amazon-corretto-headless
+      sudo yum install java-17-amazon-corretto-headless -y
 
 
