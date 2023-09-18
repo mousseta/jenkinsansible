@@ -1,8 +1,7 @@
 ---
 - name: Playbook to jenkins setup
-  hosts: all
-  gather_facts: false
-  user: ec2-user
+  hosts: localhost
   become: true
+  gather_facts: yes
   roles:
     - jenkins_setup
